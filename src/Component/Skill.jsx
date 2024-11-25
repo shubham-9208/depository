@@ -79,34 +79,7 @@ function Skill() {
 
             </motion.div>
 
-            <motion.div
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                initial={{ opacity: 0, y: -100 }}
-                transition={{ duration: 1.5 }}
-                className=" lg:mx-10 mb-10 mt-5 lg:p-10 flex items-center justify-center flex-wrap">
-                <div style={{ backgroundColor: "rgba(41, 39, 39, 0.178) " }} className="flex flex-wrap flex-col h-[90%] w-[60%] pt-4 lg:p-6 border border-gray-700  rounded-xl shadow-[0_0_10px_rgba(75,20,130,0.8)] min-w-[350px]">
-                    <div className=" flex flex-wrap items-center justify-center">
-                        <h1 className="font-semibold text-3xl tracking-tight text-center">BackEnd</h1>
-                    </div>
-
-                    <div className=" flex flex-wrap w-full p-6  gap-5 m-auto justify-center">
-
-                        <div className="  flex items-center gap-2 text-[24px] font-semibold border border-gray-500 px-5 py-3 rounded-xl hover:translate-y-[-5px]  duration-500 ease-out">
-                            <p className=" text-gray-400">Firebase</p>
-                        </div>
-
-                        <div className="  flex items-center gap-2 text-[24px] font-semibold border border-gray-500 px-5 py-3 rounded-xl hover:translate-y-[-5px]  duration-500 ease-out">
-                            <p className=" text-gray-400">MySQL</p>
-                        </div>
-
-
-
-                    </div>
-
-
-                </div>
-            </motion.div>
+            
 
             <motion.div
                 whileInView={{ opacity: 1, y: 0 }}
