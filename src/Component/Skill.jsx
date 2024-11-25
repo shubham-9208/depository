@@ -93,12 +93,10 @@ function Skill() {
                     <div className=" flex flex-wrap w-full p-6  gap-5 m-auto justify-center">
 
                         <div className="  flex items-center gap-2 text-[24px] font-semibold border border-gray-500 px-5 py-3 rounded-xl hover:translate-y-[-5px]  duration-500 ease-out">
-                            {/* <div className=""><fadatabase /></div> */}
                             <p className=" text-gray-400">Firebase</p>
                         </div>
 
                         <div className="  flex items-center gap-2 text-[24px] font-semibold border border-gray-500 px-5 py-3 rounded-xl hover:translate-y-[-5px]  duration-500 ease-out">
-                            {/* <div className=""><FaGithub /></div> */}
                             <p className=" text-gray-400">MySQL</p>
                         </div>
 
